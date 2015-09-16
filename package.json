@@ -1,0 +1,38 @@
+{
+  "name": "zero-centurion",
+  "version": "0.0.1",
+  "keywords": [
+    "zero module"
+  ],
+  "description": "User module for Zero.",
+  "zero": {
+    "dependencies": {
+      "bus": "^0.2.0",
+      "request": "^0.2.0",
+      "roof": "^0.0.1",
+      "taurus": "^0.0.1"
+    }
+  },
+  "author": "jiamiu",
+  "dependencies": {
+    "antd": "~0.9.0-beta3",
+    "core-js": "^1.0.0",
+    "lodash.isplainobject": "^3.2.0",
+    "node-jsx": "~0.13.3",
+    "superagent": "^1.2.0"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sskyy/zero-centurion.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sskyy/zero-centurion/issues"
+  },
+  "homepage": "https://github.com/sskyy/zero-centurion#readme"
+}
