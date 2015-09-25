@@ -1,9 +1,17 @@
 var Roof = require('roof-zeroql')
+var message = require('antd').message
 
 module.exports = Roof.createContainer({
   submit: function (e) {
     e.preventDefault()
     this.bus.fire('user.login',{name:'jason1',password:'123123'})
+      .then(()=>{
+      message.success('登录成功')
+    }).catch(e=>{
+      message.error('登录失败')
+    })
+
+
   },
   render: function () {
     return <form className='ant-form-horizontal'>

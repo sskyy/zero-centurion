@@ -15,7 +15,6 @@ module.exports = function( events ){
       //转发到系统中的事件去
       var result = yield that.fire.apply( that, [event].concat(args) )
 
-      //console.log( 'bridege fire result', result)
       //TODO 强行替换,要改
         this.data.data = result.data.data
       //this.data.set(`${event}.result`, data)
